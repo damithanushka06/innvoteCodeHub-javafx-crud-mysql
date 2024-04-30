@@ -1,0 +1,8 @@
+CREATE TABLE `item_mst` (
+    `id` INT(10) NOT NULL AUTO_INCREMENT,
+    `item_code` VARCHAR(255) NULL DEFAULT NULL,
+    `item_no` VARCHAR(255) NULL DEFAULT NULL,
+    `item_name` VARCHAR(50) NULL DEFAULT NULL,
+    `price` DECIMAL(20,6) NULL DEFAULT NULL,
+    PRIMARY KEY (`id`)
+)
